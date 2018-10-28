@@ -15,4 +15,13 @@ x = acos(mt+c);
 y = bcos(nt+d);
 <br>
 where a and b are the amplitudes, m and n are the periods, c and d are the phases.
-
+<br>
+<br>
+bugs:
+1. lines jump when changing values.
+2. speed needs to be implemented because i'm just adding 0.01 value to angle which would be bad if i increase the increment value
+<br>
+<br>
+visit link for demonstration:
+<br>
+https://adrian-kong.github.io/lissajous-parametric/lissajous/index.html
