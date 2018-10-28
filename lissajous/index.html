@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>circles</title>
+    <style type="text/css">
+        canvas {
+          background-color: rgb(220, 220, 220);
+        }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width =800 height=800></canvas><br>
+    Amplitude X = <input id="amplitudeX" type="number" value="1" oninput="dampX()">  <br>
+    Amplitude Y = <input id="amplitudeY" type="number" value="1" oninput="dampY()"><br>
+    Phase X = <input id="phaseX" type="number" value="0" oninput="dphaseX()"><br>
+    Phase Y = <input id="phaseY" type="number" value="0" oninput="dphaseY()"><br>
+    Period X = <input id="periodX" type="number" value="1" oninput="dperiodX()"><br>
+    Period Y = <input id="periodY" type="number" value="1" oninput="dperiodY()"><br>
+    <button id="toggle" onclick="toggle()">Toggle</button>
+    <button id="reset" onclick="reset()">Reset</button>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
