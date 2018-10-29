@@ -17,9 +17,10 @@ y = bcos(nt+d);
 where a and b are the amplitudes, m and n are the periods, c and d are the phases.
 <br>
 <br>
-bugs:
+bugs that i cant be bothered to fix:
 1. lines jump when changing values.
 2. speed needs to be implemented because i'm just adding 0.01 value to angle which would be bad if i increase the increment value
+3. take PI as a value of phase shift (for circle and parabolas)
 <br>
 <br>
 visit link for demonstration:
