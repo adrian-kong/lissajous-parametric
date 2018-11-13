@@ -28,7 +28,7 @@ function render() {
     angle = 0;
     running = false;
   }
-  angle += 0.001 * 1 / Math.max(periodX, periodY);
+  angle += 0.01 * 1 / Math.max(periodX, periodY);
   requestAnimationFrame(render);
 };
 
