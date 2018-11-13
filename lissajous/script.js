@@ -25,9 +25,6 @@ function render() {
   context.lineTo(x,y);
   context.stroke();
   if (angle > 10) {
-    running = false;
-    angle = 0;
-  }
   angle += 0.0001 * 1 / Math.max(periodX, periodY);
   requestAnimationFrame(render);
 };
