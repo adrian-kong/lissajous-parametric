@@ -24,7 +24,7 @@ function render() {
   y = height / 2 + ampY * Math.cos(periodY * angle - phaseY) * r;
   context.lineTo(x,y);
   context.stroke();
-  angle += 0.000001;
+  angle += 0.01 * Math.max(periodX, periodY);
   requestAnimationFrame(render);
 };
 
