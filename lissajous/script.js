@@ -20,7 +20,7 @@ function render() {
   if (!running) {
     return;
   }
-  x = width / 2  + ampX * Math.cos(periodX * angle - phaseX) * r;
+  x = width / 2  + ampX * Math.sin(periodX * angle - phaseX) * r;
   y = height / 2 + ampY * Math.cos(periodY * angle - phaseY) * r;
   context.lineTo(x,y);
   context.stroke();
